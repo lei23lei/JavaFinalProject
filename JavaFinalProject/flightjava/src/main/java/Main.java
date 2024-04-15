@@ -41,10 +41,10 @@ public class Main {
         if (type == 1) {
             System.out.println("Enter departure airport code: ");
             input = new Scanner(System.in);
-            String departureId = input.nextLine();
+            String departureId = input.nextLine().toUpperCase();
             System.out.println("Enter arrival airport code: ");
             input = new Scanner(System.in);
-            String arrivalId = input.nextLine();
+            String arrivalId = input.nextLine().toUpperCase();
             System.out.println("Enter outbound date (YYYY-MM-DD): ");
             input = new Scanner(System.in);
             String outboundDate = input.nextLine();
@@ -54,10 +54,10 @@ public class Main {
         } else if (type == 2) {
             System.out.println("Enter departure airport code: ");
             input = new Scanner(System.in);
-            String departureId = input.nextLine();
+            String departureId = input.nextLine().toUpperCase();
             System.out.println("Enter arrival airport code: ");
             input = new Scanner(System.in);
-            String arrivalId = input.nextLine();
+            String arrivalId = input.nextLine().toUpperCase();
             System.out.println("Enter outbound date (YYYY-MM-DD): ");
             input = new Scanner(System.in);
             String outboundDate = input.nextLine();
